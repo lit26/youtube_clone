@@ -11,7 +11,7 @@ import HiddenSidebar from "./HiddenSidebar"
 
 function Header() {
     const [inputSearch, setInputSearch] = useState('');
-    const [isShow, setShow] = useState(true);
+    const [isShow, setShow] = useState(false);
 
     const toggleClass = () => setShow(!isShow);
 

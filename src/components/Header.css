@@ -18,10 +18,14 @@
     padding:12px 0px;
     color:red;
 }
+.hiddenMenuLogo{
+    margin-left: 15px;
+}
 .header__hiddenmenu{
     position:fixed;
     width:240px;
-    top:56px;
+    top:0px;
+    padding-top: 5px;
     height:100vh;
     background:white;
     left:0px;
@@ -29,12 +33,12 @@
 }
 .header__hiddenoverlay{
     position:fixed;
-    background:gray;
+    background:rgba(0, 0, 0, 0.5);
     width:100%;
     opacity: 0.5;
     height:200%;
     left:0px;
-    top:56px;
+    top:0px;
 }
 .header__input{
     display: flex;

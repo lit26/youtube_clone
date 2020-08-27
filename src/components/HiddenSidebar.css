@@ -11,8 +11,9 @@
 
 .hiddenSidebarRow{
     display: flex;
+    height: 40px;
     align-items: center;
-    padding:10px 20px;
+    padding:0px 24px;
 }
 
 .hiddenSidebarRow__icon{

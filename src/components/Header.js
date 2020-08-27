@@ -29,6 +29,16 @@ function Header() {
             </div>
             {isShow &&
                 <div className="header__hiddenmenu">
+                    <div className="header__left hiddenMenuLogo">
+                        <MenuIcon 
+                            className={`header__menu ${isShow ? "show_menu":""}`} onClick={toggleClass}/>
+                        <Link to='/'>
+                            <img className="header__logo"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/200px-YouTube_Logo_2017.svg.png"
+                                alt=""
+                            />
+                        </Link>
+                    </div>
                     <HiddenSidebar />
                 </div>
             }

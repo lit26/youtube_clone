@@ -18,6 +18,24 @@
     padding:12px 0px;
     color:red;
 }
+.header__hiddenmenu{
+    position:fixed;
+    width:240px;
+    top:56px;
+    height:100vh;
+    background:white;
+    left:0px;
+    z-index:100;
+}
+.header__hiddenoverlay{
+    position:fixed;
+    background:gray;
+    width:100%;
+    opacity: 0.5;
+    height:200%;
+    left:0px;
+    top:56px;
+}
 .header__input{
     display: flex;
     align-items: center;

@@ -1,5 +1,6 @@
 .sidebar{
     width:72px;
+    position:fixed;
 }
 .sidebar >hr{
     height:1px;
